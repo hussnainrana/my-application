@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/menu_nev"/>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/banner_btn"-->
+    <!--        android:layout_below="@id/profileTv"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Show Banner Ad"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="100dp"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/Interstitial_btn"-->
+    <!--        android:layout_below="@id/banner_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Show Interstitial Ads"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="100dp"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/videoAd"-->
+    <!--        android:layout_below="@id/Interstitial_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Show Video Ads"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="100dp"/>-->
+
+</RelativeLayout>
